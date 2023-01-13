@@ -19,6 +19,7 @@
     font-size: 64px;
     line-height: 80px;
     color: var(--clr-white);
+    /* width: 50%; */
 }
 
 #hero .info .info__description {
