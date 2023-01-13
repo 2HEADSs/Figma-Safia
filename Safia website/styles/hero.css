@@ -7,15 +7,18 @@
     margin: 0 auto;
     display: flex;
     color: white;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+}
+
+.wrap{
+    width: max-content;
 }
 
 #hero .info .info__title {
     font-size: 64px;
     line-height: 80px;
     color: var(--clr-white);
-    width: 50%;
 }
 
 #hero .info .info__description {
@@ -24,6 +27,4 @@
     letter-spacing: -0.02em;
     color: var(--clr-neutral-500);
     margin-bottom: 32px;
-
-
 }
