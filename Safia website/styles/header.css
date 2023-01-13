@@ -1,5 +1,5 @@
 .header {
-    background-color: #234465;
+    background-color: var(--clr-primary);
     padding: 6px 24px;
     position: relative;
     position: sticky;
