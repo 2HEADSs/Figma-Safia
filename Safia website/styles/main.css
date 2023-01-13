@@ -10,6 +10,13 @@
     --clr-secondary-600: #f9724d;
     --clr-secondary-300: #fbb6ab;
     --clr-secondary-100: #fef1ef;
+
+    --clr-neutral: #070e27;
+    --clr-neutral-800: #081131;
+    --clr-neutral-700: #162044;
+    --clr-neutral-600: #4e5a85;
+    --clr-neutral-500: #7e8bb6;
+    --clr-neutral-300: #ccd2e9;
 }
 
 body {
