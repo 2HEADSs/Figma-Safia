@@ -1,4 +1,10 @@
-
+:root {
+    --clr-primary: #001a57;
+    --clr-primary-800: #00308f;
+    --clr-primary-600: #0059f7;
+    --clr-primary-300: #689eff;
+    --clr-primary-100: rgba(0, 89, 247, 0.16);
+}
 
 body {
     background-color: #dadbdf;
