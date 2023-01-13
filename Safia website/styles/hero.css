@@ -35,4 +35,18 @@
 #hero .hero__img {
     width: calc(100% - 2 * var(--page-px));
     margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+#hero .clients {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 180px;
+    gap: 24px;
+}
+
+#hero .clients .clients__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
