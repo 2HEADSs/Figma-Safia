@@ -1,3 +1,15 @@
-#hero{
+#hero {
     background-color: var(--clr-neutral);
+    padding: 64px 0;
+}
+
+#hero .info {
+    width: calc(100% - 2 * var(--page-px));
+    margin: 0 auto
+}
+
+#hero .info .info__title{
+    font-size: 54px;
+    line-height: 80px;
+    color: var(--clr-white);
 }
