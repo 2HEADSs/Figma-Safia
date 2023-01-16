@@ -5,6 +5,12 @@
 
 }
 
+#how-it-works .hiw__row .row__img {
+    width: 50%;
+    max-width: 550px;
+
+}
+
 #how-it-works .row__text .text__title {
     color: var(--clr-white);
     margin-bottom: 20px;
