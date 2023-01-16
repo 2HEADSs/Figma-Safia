@@ -1,0 +1,17 @@
+#how-it-works .hiw__row {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+
+}
+
+#how-it-works .row__text .text__title {
+    color: var(--clr-white);
+    margin-bottom: 20px;
+}
+
+#how-it-works .row__text .text__desc {
+    color: var(--clr-neutral-500);
+    font-size: 20px;
+    line-height: 32px;
+}
