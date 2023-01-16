@@ -1,8 +1,14 @@
+
 #how-it-works .hiw__row {
+    width: calc(100% - 2 * var(--page-px));
+    margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 110px;
+}
 
+#how-it-works .hiw__row:not(:last-child){
+    margin-bottom: 96px;
 }
 
 #how-it-works .hiw__row .row__img {
