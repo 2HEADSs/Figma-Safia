@@ -1,6 +1,6 @@
-#hero {
-    padding: 64px 0;
-}
+/* #hero {
+
+} */
 
 #hero .info {
     width: calc(100% - 2 * var(--page-px));

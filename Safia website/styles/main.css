@@ -58,6 +58,7 @@ h5 {
 .section {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 64px 0;
 }
 
 .section .section__title {
