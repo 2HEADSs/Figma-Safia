@@ -34,4 +34,24 @@
 #pricing .plan .plan__divider {
  height: 2px;
  background-color: var(--clr-neutral-600);
+ margin-bottom: 48px;
+}
+
+#pricing .plan .features{
+margin-bottom: 48px;
+}
+
+
+#pricing .plan .features .feature{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#pricing .plan .features .feature:not(:last-child){
+    margin-bottom: 24px;
+}
+
+#pricing .plan .features .feature .feature__text{
+    color: var(--clr-white);
 }
