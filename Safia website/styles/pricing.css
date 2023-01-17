@@ -1,7 +1,10 @@
 #pricing .pricing__row {
+    width: calc(100% - 2 * var(--page-px-mini));
+    margin: 0px ;
     display: flex;
     gap: 40px;
     align-items: flex-end;
+
 }
 
 #pricing .plan {
