@@ -25,5 +25,4 @@
 .btn.btn-primary:hover {
     background-color: var(--clr-white);
     color: var(--clr-primary-600);
-
 }
