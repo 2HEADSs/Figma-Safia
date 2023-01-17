@@ -1,0 +1,14 @@
+#features .features__title {
+    color: var(--clr-white);
+    margin-bottom: 16px;
+}
+
+#features .features__sub-title {
+    color: var(--clr-neutral-500);
+    margin-bottom: 32px;
+}
+
+#features .features__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
