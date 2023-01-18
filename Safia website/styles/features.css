@@ -35,16 +35,23 @@
     box-shadow: 0 10px 15px -3px rgb(255 255 255 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
-#features .feat:hover::after {
+#features .feat::after {
     content: "";
     position: absolute;
-    top: 0;
+    bottom: -100%;
     left: 0px;
     height: 100%;
     width: 100%;
     background-color: var(--clr-neutral-800);
     opacity: 1;
     z-index: -1;
+    transition: bottom 400ms ease-in-out, opacity 250ms ease-in-out;
+}
+
+#features .feat:hover::after {
+    
+    bottom: 0px;
+
 }
 
 #features .feat .feat__icon {

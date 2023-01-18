@@ -15,6 +15,14 @@
     width: 50%;
     max-width: 550px;
 
+
+}
+
+#how-it-works .hiw__row .row__img:hover {
+    transform: scale(1.1) rotate(-10deg);
+    transition: all 500ms ease-in-out;
+    
+
 }
 
 #how-it-works .row__text .text__title {
