@@ -24,4 +24,26 @@
     width: calc(100% - 600px);
     
 }
+#trial .trial__title {
+    color: var(--clr-white);
+    text-align: center;
+}
+
+
+#trial .trial__sub-title {
+    color: var(--clr-neutral-500);
+    text-align: center;
+
+}
+
+.trial__btn{
+    --btn-clr-bg: var(--clr-neutral-600);
+    --btn-clr-text: var(--clr-white);
+    border-radius: 12px;
+    border: none;
+    background-color: var(--btn-clr-bg);
+    color: var(--btn-clr-text);
+    padding: 16px 24px;
+    margin-left: 400px;
+}
 
